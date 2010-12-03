@@ -1,0 +1,28 @@
+Un - A Lightweight Data Structure Library for JavaScript
+
+Un is similar to jQuery. Like jQuery Un uses a simple symbol to create its fundamental object. In Un's case this is _, an underscore.
+
+Un wraps all of JavaScripts basic types
+
+_([])
+_({})
+_('')
+_(//)
+_(0)
+
+and adds another, kind of
+
+_(_)
+
+is equivalent to _(function(){}) and was chosen for simplicity, and the fact that a function of a function says a lot about functions.
+
+To use Un just include un.js, alternatively each of the basic types is represented in a file
+
+unray.js
+unhsh.js
+unstr.js
+unrgx.js
+unnmb.js
+unfnn.js
+
+and can be included as needed.
